@@ -48,3 +48,98 @@ nav a:hover {
     color: #905ac7;
 
 }
+
+footer {
+    background-color: #EFECFF;
+    text-align: left;
+    font-family: 'Nunito';
+}
+
+#footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.columns {
+    display: flex;
+    justify-content: left;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.column h3 {
+    margin: 32px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #333;
+}
+
+.column ul {
+    margin: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    margin: 8px 0;
+}
+
+.column ul li a {
+    margin: 32px;
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-left: 32px;
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+.rights {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 198px;
+    height: 18px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-bottom: 51px;
+}
