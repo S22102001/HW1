@@ -49,6 +49,40 @@ nav a:hover {
 
 }
 
+#coverIMG {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cover-content {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    text-align: left;
+    color: white;
+    padding-left: 32px;
+}
+
+.cover-content h1 {
+    font-size: 96px;
+    font-family: 'Nunito';
+    margin-bottom: 20px;
+}
+
+.cover-content p {
+    font-size: 24px;
+    font-family: 'Nunito';
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 footer {
     background-color: #EFECFF;
     text-align: left;
